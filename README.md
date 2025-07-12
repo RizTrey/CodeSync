@@ -38,50 +38,6 @@ You can view the live preview of the project [here](https://code-sync-live.verce
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## ⚙️ Installation
-
-1. **Fork this repository:** Click the Fork button located in the top-right corner of this page to fork the repository.
-2. **Clone the repository:**
-    ```bash
-    git clone https://github.com/<your-username>/Code-Sync.git
-    ```
-3. **Set .env file:**
-   Inside the client and server directories rename the `.env.example` file to `.env` and set the following environment variables:
-
-    Frontend:
-
-    ```bash
-    VITE_BACKEND_URL=<your_server_url>
-    ```
-
-    Backend:
-
-    ```bash
-    PORT=3000
-    ```
-
-4. **Install dependencies:**
-   Navigate to the frontend and backend directories separately and run:
-    ```bash
-     npm install
-    ```
-5. **Start the frontend and backend servers:**  
-   Frontend:
-    ```bash
-    cd client
-    npm run dev
-    ```
-    Backend:
-    ```bash
-    cd server
-    npm run dev
-    ```
-6. **Access the application:**
-   Open a browser and enter the following URL:
-    ```bash
-    http://localhost:5173/
-    ```
-
 ## 🌟 Appreciation for Resources
 
 Special thanks to EMKC for providing the Piston API, enabling code execution. For more information, visit the following links:
